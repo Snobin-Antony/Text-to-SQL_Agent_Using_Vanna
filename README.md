@@ -114,6 +114,7 @@ Follow these instructions to get the project running locally on your machine.
     npm install
     ```
 Replace the App.js, App.css with the codes in the repository and add the components folder.
+
 3.  **Run the React development server:**
 
     ```bash
@@ -136,3 +137,4 @@ Replace the App.js, App.css with the codes in the repository and add the compone
   * **Data Visualization:** Instead of just showing a table, the results could be rendered as charts or graphs for better data insights.
   * **Chat History:** Store the conversation history so users can see previous questions and answers.
   * **Evolve to an Agentic Model:** Transition from a pure RAG pattern to a tool-using agent. This would allow the agent to perform other actions, like sending an email with the results or searching the web for related information.
+
