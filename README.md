@@ -58,8 +58,8 @@ Follow these instructions to get the project running locally on your machine.
 1.  **Clone the repository:**
 
     ```bash
-    git clone <your-repo-url>
-    cd <your-repo-name>
+    git clone Text-to-SQL_Agent_Using_Vanna
+    cd Text-to-SQL_Agent_Using_Vanna
     ```
 
 2.  **Navigate to the backend directory and create a virtual environment:**
@@ -113,7 +113,7 @@ Follow these instructions to get the project running locally on your machine.
     ```bash
     npm install
     ```
-
+Replace the App.js, App.css with the codes in the repository and add the components folder.
 3.  **Run the React development server:**
 
     ```bash
