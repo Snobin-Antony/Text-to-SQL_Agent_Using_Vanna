@@ -35,8 +35,7 @@ This project leverages a powerful RAG (Retrieval-Augmented Generation) architect
 This project uses a **Retrieval-Augmented Generation (RAG)** architecture. This is a modern approach that avoids the need for expensive model fine-tuning.
 
 The high-level flow is as follows:
-
-`[React Frontend] <==> [FastAPI Server] <==> [Vanna Agent]`
+![Architecture Diagram](backend/data/architecture.jpg)
 
 The Vanna Agent itself is composed of three key parts:
 
@@ -137,4 +136,3 @@ Replace the App.js, App.css with the codes in the repository and add the compone
   * **Data Visualization:** Instead of just showing a table, the results could be rendered as charts or graphs for better data insights.
   * **Chat History:** Store the conversation history so users can see previous questions and answers.
   * **Evolve to an Agentic Model:** Transition from a pure RAG pattern to a tool-using agent. This would allow the agent to perform other actions, like sending an email with the results or searching the web for related information.
-
